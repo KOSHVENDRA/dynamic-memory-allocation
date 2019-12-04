@@ -13,7 +13,7 @@ int main()
   double total_time;
   clock_t start, end;
   start = clock();
-  printf("%f",fact(45));
+  printf("%f",fact(12));
   end = clock();
   double k=((double)(end-start)) / CLOCKS_PER_SEC;
   printf("\ntime taken by code in running is:%f",k);
